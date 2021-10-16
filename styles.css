@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img#france {
+  width: 100%;
+  height: 50vh;
+  background size: cover;
+  background-attachment: Fixed;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  width: 100vw;
+  padding: 1vw;
+}
+
+div#francebkgd {
+  background-image: url(https://media.istockphoto.com/photos/arc-de-triomphe-paris-picture-id135034702?b=1&k=20&m=135034702&s=170667a&w=0&h=Y6w6ohcqRzhNQBFyQPCPAUyzzvVbcSLl9Esa2AwUX4o=);
+  width: 100%;
+  height: 50vh;
+  background size: cover;
+  background-attachment: Fixed;
+  text-align: center;
+}
+
+h1 {
+  font-family: Times;
+  font-style: Italic;
+  color: Pink
+}
+
+li {
+  color: grey;
+  font-size: 13x;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-family: Times;
+  font-size: 13x;
+  margin-bottom: 0;
+  font-style: Bold;
+}
+
+ul,
+ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 10px;
+  font-style: italic;
+}
+
+@media (min-width: 576px) {
+  #equipment {
+    background-color: lightblue;
+  }
+  #ingredients {
+    background-color: lightgreen;
+  }
+  #directions {
+    background-color: pink;
+  }
+}
+
+/* responsive design */
+
+@media (orientation: landscape) {
+  
+  div {
+    width: calc(100vw/3);
+    float: left;
+  }
+  
+  li {
+    color: grey;
+    font-size: 10x;
+    font-family: sans-serif;
+  }
+} 
+
